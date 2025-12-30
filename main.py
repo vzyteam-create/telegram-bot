@@ -2,7 +2,7 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.utils import executor
 import os
 
-bot = Bot(token=os.getenv("8514866233:AAG6SYtXYkfkB3k5FUtVFLZDMgsYKiPbYKY"))
+bot = Bot(token=os.getenv("8406040455:AAErPgkbH183hkLttTTgye_9S7MyOJtwi1M"))
 dp = Dispatcher(bot)
 
 @dp.message_handler(commands=["start"])
